@@ -5,10 +5,17 @@ import sys, re, json
 #open dataset/find business ids
 
 def access_dataset():
-	with open('yelpdataset.json', 'rU') as yelpdataset:
-		data = json.loads(yelpdataset.read())
+	data = []
 
-	print data
+	with open('yelpdataset.json', 'rU') as yelpdataset:
+		dataset = yelpdataset.read().split(',\n')
+		for line in dataset:
+			biz = json.loads(line)
+			data.append(biz)
+
+	for i in range(6):
+		obj = data[i]
+		print obj['business_id'], '\n'
 
 def main():
 	access_dataset()
