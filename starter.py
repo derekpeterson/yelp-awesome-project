@@ -3,11 +3,11 @@
 import sys, re, json
 
 def access_dataset():
-	with open('yelpdataset.json') as yelpdataset:
-		data = json.load(yelpdataset)
+	with open('yelpdataset.json', 'rU') as yelpdataset:
+		data = re.sub('}\n{', '},\n{', yelpdataset.read())
 
-	for line in data:
-		print line['business_id']
+	with open('prettydata.json', 'w') as dataset:
+		dataset.write(data)
 
 def main():
 	access_dataset()
