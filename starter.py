@@ -17,6 +17,7 @@ def main():
 #take top 5 business ids
 
 #take top 5 highest reviews for each business
+
 #pull reviews associated with business ids
 
 #process by business/region and location/population
