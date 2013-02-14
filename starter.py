@@ -17,14 +17,42 @@ import sys, re, json
 
 def access_dataset():
 	LIMIT = 1
-	with open("bizbycat.json", "rU") as yelpdataset:
+	with open("reviewtext.json", "rU") as yelpdataset:
 		data = json.load(yelpdataset)
 
-	# This is just going to print the business categories
+	# Will print every list of reviews
+	# line is the business_id
+	for line in data:
+		print data[line]
+
+	# Took all of the restaurants from bizbycat.json,
+	# loaded their business_id into a list,
+	# ran through the reviews in reviewsbybiz,
+	# and added 'business_id': [reviews text],
+	# to reviewtext before dumping it to
+	# reviewtext.json.
+	# businesses = []
+	# for biz in data['Restaurants']:
+	# 	businesses.append(biz['business_id'])
+
+	# with open('reviewsbybiz.json') as reviewsbybiz:
+	# 	review_data = json.load(reviewsbybiz)
+
+	# reviewtext = dict()
+
+	# for biz in review_data:
+	# 	if biz in businesses:
+	# 		texts = [rev['text'] for rev in review_data[biz]]
+	# 		reviewtext[biz] = texts
+
+	# with open('reviewtext.json', 'w') as reviewsbybiz:
+	# 	json.dump(reviewtext, reviewsbybiz)
+
+	# This goes through to print the business categories
 	# which are the keys in bizbycat.json
 	# with the value being a dict described below
-	for line in data:
-		print line
+	# for line in sorted(data.keys()):
+	# 	print line
 
 	# cats = dict()
 	# for thing in data:
@@ -51,7 +79,6 @@ def access_dataset():
 	# 	review = {
 	# 		'review_id': item['review_id'], 'stars': item['stars'], 'text': item['text']
 	# 	}
-	# 	print review
 	# 	if biz_id in reviews:
 	# 		reviews[biz_id].append(review)
 	# 	else:
@@ -85,6 +112,7 @@ def access_dataset():
 def main():
 	access_dataset()
 
+#
 #take top 5 business ids
 
 #take top 5 highest reviews for each business
