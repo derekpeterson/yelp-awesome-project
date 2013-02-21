@@ -118,8 +118,8 @@ def main():
 
 #
 #take top 5 business ids
-
 #take top 5 highest reviews for each business
+#--Aren't we not doing these because we're using everything? -Sarah
 
 #pull reviews associated with business ids
 #done: in reviewsbybiz.json
