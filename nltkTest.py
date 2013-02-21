@@ -20,12 +20,12 @@ rjson = json.loads(reviews)
 
 # List of tokenized reviews
 processedWords = []
-
+count = 1
 # CHANGE SCHOOL (make sure spelling is consistent with API)
-school = 'Columbia University'
+#school = 'Columbia University'
 
 # CHANGE CATEGORY (make sure spelling is consistent with API)
-category = 'Coffee & Tea'
+#category = 'Coffee & Tea'
 
 # Loop through each business in the business JSON object
 for b in bjson:
@@ -33,7 +33,8 @@ for b in bjson:
 	tempReviewStr = ""
 
 	# If the school is in the list of schools listed for the business AND the category is in the list of categories listed
-	if school in b['schools'] and category in b['categories'] and rjson.has_key(b['business_id']):
+#	if school in b['schools'] and category in b['categories'] and rjson.has_key(b['business_id']):
+	if rjson.has_key(b['business_id']):
 		# Print border
 #		print '************************************************'
 #		print '************************************************'
@@ -54,7 +55,7 @@ for b in bjson:
 
 		# Print reviews
 		for review in rjson[str(b['business_id'])]:
-#			print review
+			#print type(review)
 #			print '*****'
 			tempReviewStr += ' ' + review
 		# Tokenize all reviews
@@ -77,8 +78,10 @@ for b in bjson:
 
 		# Write output to text file
 		output = open('output.txt', 'w')
-		output.write(str(processedWords[0][1]))
-		print str(school) + ' and ' + str(category) + ' written to output.txt.'
+#		print processedWords
+#		output.write(str(processedWords))
+		print str(count) + 'written to output.txt'
+		count += 1
 #		tokenizedReviews['business_id'] = b['business_id']
 #		tokenizedReviews['tokenizedReviews'] = tReviews
 
