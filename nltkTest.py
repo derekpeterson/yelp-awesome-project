@@ -74,7 +74,11 @@ for b in bjson:
 				wordCounts[word] += 1
 #		print wordCounts
 		processedWords.append([b['business_id'], collections.OrderedDict(sorted(wordCounts.items()))])
-		print type(processedWords[0][1])
+
+		# Write output to text file
+		output = open('output.txt', 'w')
+		output.write(str(processedWords[0][1]))
+		print str(school) + ' and ' + str(category) + ' written to output.txt.'
 #		tokenizedReviews['business_id'] = b['business_id']
 #		tokenizedReviews['tokenizedReviews'] = tReviews
 
