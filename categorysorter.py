@@ -1,6 +1,6 @@
 import re
 
-with open('totals.txt', 'rU') as totals:
+with open('categorytotals.txt', 'rU') as totals:
 	data = totals.read()
 
 data = re.sub('"', '', data)
