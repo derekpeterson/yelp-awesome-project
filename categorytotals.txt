@@ -1,0 +1,177 @@
+"Active Life"	1
+"Afghan"	4
+"African"	12
+"American (New)"	392
+"American (Traditional)"	347
+"Appliances"	1
+"Arcades"	2
+"Argentine"	2
+"Art Galleries"	1
+"Arts & Entertainment"	32
+"Asian Fusion"	117
+"Automotive"	1
+"Bagels"	13
+"Bakeries"	79
+"Barbeque"	64
+"Bars"	372
+"Basque"	5
+"Bed & Breakfast"	2
+"Beer, Wine & Spirits"	14
+"Belgian"	3
+"Bistros"	4
+"Books, Mags, Music and Video"	2
+"Brasseries"	1
+"Brazilian"	6
+"Breakfast & Brunch"	171
+"Breweries"	21
+"British"	5
+"Buffets"	40
+"Burgers"	182
+"Burmese"	1
+"Cafes"	107
+"Cajun/Creole"	19
+"Cambodian"	3
+"Canadian (New)"	10
+"Candy Stores"	1
+"Caribbean"	29
+"Caterers"	55
+"Cheese Shops"	1
+"Cheesesteaks"	7
+"Chicken Wings"	40
+"Chinese"	270
+"Cinema"	3
+"Coffee & Tea"	159
+"Comedy Clubs"	3
+"Comfort Food"	3
+"Convenience Stores"	8
+"Cooking Schools"	1
+"Creperies"	23
+"Cuban"	8
+"Dance Clubs"	11
+"Delis"	154
+"Desserts"	35
+"Dim Sum"	6
+"Diners"	94
+"Dive Bars"	16
+"Do-It-Yourself Food"	1
+"Donuts"	3
+"Drugstores"	2
+"Education"	1
+"Egyptian"	1
+"Ethiopian"	13
+"Ethnic Food"	33
+"Event Planning & Services"	78
+"Farmers Market"	1
+"Fast Food"	205
+"Filipino"	7
+"Fish & Chips"	5
+"Florists"	1
+"Flowers & Gifts"	1
+"Fondue"	6
+"Food Court"	1
+"Food Delivery Services"	10
+"Food Stands"	109
+"Food Trucks"	4
+"Food"	451
+"French"	54
+"Fruits & Veggies"	3
+"Gas & Service Stations"	1
+"Gastropubs"	17
+"Gay Bars"	2
+"Gelato"	1
+"German"	11
+"Gluten-Free"	17
+"Golf"	1
+"Greek"	71
+"Grocery"	36
+"Guest Houses"	1
+"Halal"	14
+"Hawaiian"	6
+"Health Markets"	3
+"Health and Medical"	2
+"Himalayan/Nepalese"	1
+"Home & Garden"	1
+"Hookah Bars"	17
+"Hospitals"	1
+"Hot Dogs"	48
+"Hotels & Travel"	14
+"Hotels"	12
+"Hungarian"	1
+"Ice Cream & Frozen Yogurt"	21
+"Indian"	148
+"Indonesian"	2
+"International"	1
+"Internet Cafes"	3
+"Irish"	20
+"Italian"	255
+"Japanese"	218
+"Jazz & Blues"	3
+"Juice Bars & Smoothies"	23
+"Karaoke"	3
+"Korean"	94
+"Kosher"	3
+"Latin American"	51
+"Lebanese"	1
+"Live/Raw Food"	2
+"Lounges"	62
+"Malaysian"	4
+"Meat Shops"	5
+"Medical Centers"	1
+"Mediterranean"	134
+"Mexican"	324
+"Middle Eastern"	94
+"Modern European"	4
+"Mongolian"	10
+"Moroccan"	8
+"Music & DVDs"	1
+"Music Venues"	20
+"Nightlife"	401
+"Pakistani"	49
+"Performing Arts"	3
+"Persian/Iranian"	8
+"Peruvian"	6
+"Photography Stores & Services"	1
+"Piano Bars"	1
+"Pizza"	486
+"Polish"	4
+"Pool Halls"	6
+"Portuguese"	4
+"Poutineries"	1
+"Pubs"	83
+"Restaurants"	4597
+"Russian"	3
+"Salad"	14
+"Salvadoran"	5
+"Sandwiches"	460
+"Scandinavian"	2
+"Seafood Markets"	5
+"Seafood"	84
+"Shopping Centers"	2
+"Shopping"	10
+"Singaporean"	2
+"Social Clubs"	1
+"Soul Food"	17
+"Soup"	18
+"Southern"	33
+"Spanish"	11
+"Specialty Food"	54
+"Specialty Schools"	1
+"Sports Bars"	44
+"Steakhouses"	47
+"Street Vendors"	21
+"Sushi Bars"	142
+"Szechuan"	1
+"Taiwanese"	9
+"Tapas Bars"	22
+"Tapas/Small Plates"	6
+"Tea Rooms"	7
+"Tex-Mex"	37
+"Thai"	147
+"Trinidadian"	1
+"Turkish"	13
+"Vegan"	30
+"Vegetarian"	66
+"Venues & Event Spaces"	12
+"Vietnamese"	62
+"Wine Bars"	24
+"Wineries"	1

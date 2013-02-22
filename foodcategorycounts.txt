@@ -1,0 +1,177 @@
+Restaurants 4597
+Pizza 486
+Sandwiches 460
+Food 451
+Nightlife 401
+American (New) 392
+Bars 372
+American (Traditional) 347
+Mexican 324
+Chinese 270
+Italian 255
+Japanese 218
+Fast Food 205
+Burgers 182
+Breakfast & Brunch 171
+Coffee & Tea 159
+Delis 154
+Indian 148
+Thai 147
+Sushi Bars 142
+Mediterranean 134
+Asian Fusion 117
+Food Stands 109
+Cafes 107
+Diners 94
+Korean 94
+Middle Eastern 94
+Seafood 84
+Pubs 83
+Bakeries 79
+Event Planning & Services 78
+Greek 71
+Vegetarian 66
+Barbeque 64
+Lounges 62
+Vietnamese 62
+Caterers 55
+French 54
+Specialty Food 54
+Latin American 51
+Pakistani 49
+Hot Dogs 48
+Steakhouses 47
+Sports Bars 44
+Buffets 40
+Chicken Wings 40
+Tex-Mex 37
+Grocery 36
+Desserts 35
+Ethnic Food 33
+Southern 33
+Arts & Entertainment 32
+Vegan 30
+Caribbean 29
+Wine Bars 24
+Creperies 23
+Juice Bars & Smoothies 23
+Tapas Bars 22
+Breweries 21
+Ice Cream & Frozen Yogurt 21
+Street Vendors 21
+Irish 20
+Music Venues 20
+Cajun/Creole 19
+Soup 18
+Gastropubs 17
+Gluten-Free 17
+Hookah Bars 17
+Soul Food 17
+Dive Bars 16
+Beer, Wine & Spirits 14
+Halal 14
+Hotels & Travel 14
+Salad 14
+Bagels 13
+Ethiopian 13
+Turkish 13
+African 12
+Hotels 12
+Venues & Event Spaces 12
+Dance Clubs 11
+German 11
+Spanish 11
+Canadian (New) 10
+Food Delivery Services 10
+Mongolian 10
+Shopping 10
+Taiwanese 9
+Convenience Stores 8
+Cuban 8
+Moroccan 8
+Persian/Iranian 8
+Cheesesteaks 7
+Filipino 7
+Tea Rooms 7
+Brazilian 6
+Dim Sum 6
+Fondue 6
+Hawaiian 6
+Peruvian 6
+Pool Halls 6
+Tapas/Small Plates 6
+Basque 5
+British 5
+Fish & Chips 5
+Meat Shops 5
+Salvadoran 5
+Seafood Markets 5
+Afghan 4
+Bistros 4
+Food Trucks 4
+Malaysian 4
+Modern European 4
+Polish 4
+Portuguese 4
+Belgian 3
+Cambodian 3
+Cinema 3
+Comedy Clubs 3
+Comfort Food 3
+Donuts 3
+Fruits & Veggies 3
+Health Markets 3
+Internet Cafes 3
+Jazz & Blues 3
+Karaoke 3
+Kosher 3
+Performing Arts 3
+Russian 3
+Arcades 2
+Argentine 2
+Bed & Breakfast 2
+Books, Mags, Music and Video 2
+Drugstores 2
+Gay Bars 2
+Health and Medical 2
+Indonesian 2
+Live/Raw Food 2
+Scandinavian 2
+Shopping Centers 2
+Singaporean 2
+Active Life 1
+Appliances 1
+Art Galleries 1
+Automotive 1
+Brasseries 1
+Burmese 1
+Candy Stores 1
+Cheese Shops 1
+Cooking Schools 1
+Do-It-Yourself Food 1
+Education 1
+Egyptian 1
+Farmers Market 1
+Florists 1
+Flowers & Gifts 1
+Food Court 1
+Gas & Service Stations 1
+Gelato 1
+Golf 1
+Guest Houses 1
+Himalayan/Nepalese 1
+Home & Garden 1
+Hospitals 1
+Hungarian 1
+International 1
+Lebanese 1
+Medical Centers 1
+Music & DVDs 1
+Photography Stores & Services 1
+Piano Bars 1
+Poutineries 1
+Social Clubs 1
+Specialty Schools 1
+Szechuan 1
+Trinidadian 1
+Wineries 1
