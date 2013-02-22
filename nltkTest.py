@@ -79,7 +79,7 @@ for b in bjson:
 		# Write output to text file
 		output = open('output.txt', 'w')
 #		print processedWords
-#		output.write(str(processedWords))
+		output.write(str(processedWords))
 		print str(count) + 'written to output.txt'
 		count += 1
 #		tokenizedReviews['business_id'] = b['business_id']
