@@ -19,13 +19,11 @@ reviews = connection.read()
 rjson = json.loads(reviews)
 
 # List of tokenized reviews
-processedWords = []
+#processedWords = []
+processedWords = {}
 count = 1
-# CHANGE SCHOOL (make sure spelling is consistent with API)
-#school = 'Columbia University'
 
-# CHANGE CATEGORY (make sure spelling is consistent with API)
-#category = 'Coffee & Tea'
+output = open('outputNotAlphabetized.json', 'w')
 
 # Loop through each business in the business JSON object
 for b in bjson:
@@ -74,23 +72,17 @@ for b in bjson:
 			else:
 				wordCounts[word] += 1
 #		print wordCounts
-		processedWords.append([b['business_id'], collections.OrderedDict(sorted(wordCounts.items()))])
+#		processedWords.append([b['business_id'], collections.OrderedDict(sorted(wordCounts.items()))])
+		processedWords[b['business_id']] = wordCounts
+#		print processedWords[b['business_id']]
+		print str(count) + ' Reviews for ' + str(b['business_id']) + ' tokenized, lemmatized, and added to dictionary.'
 
 		# Write output to text file
-		output = open('output.txt', 'w')
-#		print processedWords
-		output.write(str(processedWords))
-		print str(count) + 'written to output.txt'
+#		output = open('output.txt', 'w')
+#		output.write(str(processedWords))
+		print str(count) + ' processed'
 		count += 1
-#		tokenizedReviews['business_id'] = b['business_id']
-#		tokenizedReviews['tokenizedReviews'] = tReviews
-
-#for business in processedWords:
-#	print business[1]	
-# lemmatize words for ALL business
-
-#each business, combine all reviews and lemmatize, remove stop words, and create dictionary of word counts
-#final output: dictionary or word counts.
-#
-#keep business id, city, state
-#remove stars
+str = json.dumps(processedWords)
+output.write(str)
+output.close()
+print 'processedWords written to outputNotAlphabetized.json'
