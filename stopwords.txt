@@ -1,8 +1,13 @@
 -
+{
+}
+(
+)
 :
 a
 all
 also
+always
 am
 an
 and
@@ -12,6 +17,7 @@ aren't
 as
 at
 be
+been
 being
 but
 by
@@ -30,6 +36,8 @@ get
 gave
 give
 given
+go
+got
 had
 hadn't
 has
@@ -52,11 +60,13 @@ is
 it
 its
 it's
+let
 like
 me
 mine
 my
 not
+now
 of
 oh
 on
@@ -67,6 +77,7 @@ said
 see
 she
 so
+sure
 take
 that
 that's
@@ -85,6 +96,7 @@ us
 use
 was
 we
+well
 were
 weren't
 what
