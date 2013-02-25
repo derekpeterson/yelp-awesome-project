@@ -9,7 +9,7 @@
 	html {
 		background: rgb(0, 120, 180);
 		font-size: 10px;
-		font-style: Ubuntu,Arial,sans-serif;
+		font-style: Ubuntu,Helvetica,Arial,sans-serif;
 	}
 	body {
 		background-color: rgb(196, 18, 0); /* yelp red */
@@ -24,6 +24,15 @@
 		display: block;
 		margin: 1em auto;
 	}
+	.cloud {
+		background: black;
+		height: auto;
+		width: 100%;
+	}
+	.cloud svg {
+		margin: 1em 1em -1em;
+	}
+	.cloud,
 	.chart {
 		margin: 5em auto;
 	}
@@ -38,6 +47,8 @@
 			<h1>yelp-awesome-project</h1>
 		</header>
 		<main>
+			<div class="cloud">
+			</div>
 			<div class="chart first">
 				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=A1%3AB1984&gid=0&pub=1","options":{"vAxes":[{"useFormatFromData":true,"title":null,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"booleanRole":"certainty","curveType":"","title":"Total word usage across reviews","animation":{"duration":0},"legend":"right","lineWidth":2,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"tooltip":{},"width":"100%","height":520},"state":{},"view":{},"chartType":"LineChart","chartName":"Chart 1"} </script>
 			</div>
@@ -49,11 +60,12 @@
 			</div>
 			<div class="chart last">
 				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=J1%3AK41&gid=0&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"title":"Total reviews per category","booleanRole":"certainty","height":520,"animation":{"duration":0},"legend":"right","width":"100%","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"tooltip":{},"isStacked":false},"state":{},"view":{},"chartType":"ColumnChart","chartName":"Chart 4"} </script>
-
 			</div>
 		</main>
 		<footer></footer>
 	</div>
 	<script type="text/javascript" src="js/d3.v3.js"></script>
+	<script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
