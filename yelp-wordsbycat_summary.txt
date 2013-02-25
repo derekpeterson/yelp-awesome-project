@@ -1,0 +1,70 @@
+##Most negative words per review##
+1) Pizza	0.47
+2) Chinese	0.45
+2) Nightlife	0.45
+2) Sandwiches	0.45
+5) Bars	0.44
+6) American (Traditional)	0.41
+7) Fast Food	0.39
+8) Mexican  0.38
+9) American (New)	0.37
+10) Burgers	0.36
+
+##Most positive words per review##
+1) American (New)	1.54
+2) Nightlife	1.44
+2) Bars	1.44
+4) Pizza	1.42
+5) Italian	1.39
+5) Sandwiches	1.39
+7) American (Traditional)	1.32
+8) Chinese	1.28
+9) Middle Eastern	1.27
+10) Japanese	1.25
+10) Mexican	1.25
+10) Thai	1.25
+
+###
+total negative words:	5324
+total positive words:	19691
+Positive words are 3.7 times more likely
+###
+
+
+##Most price-conscious categories (price words mentioned the most per review)##
+1) Sandwiches	0.40
+2) Pizza	0.39
+3) Sushi Bars	0.38
+4) Japanese	0.36
+5) Italian 0.33
+5) Buffets 0.33
+5) American (New)	0.33
+
+##Least price-conscious##
+1) Breweries	0.00
+1) Ice Cream & Frozen Yogurt	0.00
+1) Street Vendors	0.00
+4) Desserts	0.07
+5) Barbeque	0.11
+6) Middle Eastern	0.12
+7) Steakhouses 0.13
+7) Pubs	0.13
+7) Southern	0.13
+
+##Most mentions of service (average per review)##
+1) American (New)	0.67
+2) Bars	0.63
+2) Nightlife	0.63
+4) Pizza	0.61
+4) Italian	0.61
+
+##Least mentions of service (average per review)##
+1) Ice Cream & Frozen Yogurt	0.00
+2) Buffets	0.15
+3) Street Vendors	0.16
+4) Hot Dogs	0.17
+5) Food Stands	0.20
+6) Southern	0.22
+
+
+
