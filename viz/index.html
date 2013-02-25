@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>yelp-awesome-project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<style type="text/css">
+	html {
+		background: rgb(0, 120, 180);
+		font-size: 10px;
+		font-style: Ubuntu,Arial,sans-serif;
+	}
+	body {
+		background-color: rgb(196, 18, 0); /* yelp red */
+	}
+	.container {
+		color: white;
+	}
+	header {
+		font-size: 2em;
+	}
+	header * {
+		display: block;
+		margin: 1em auto;
+	}
+	.chart {
+		margin: 5em auto;
+	}
+	.chart.last {
+		margin-bottom: 10em;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>yelp-awesome-project</h1>
+		</header>
+		<main>
+			<div class="chart first">
+				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=A1%3AB1984&gid=0&pub=1","options":{"vAxes":[{"useFormatFromData":true,"title":null,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"booleanRole":"certainty","curveType":"","title":"Total word usage across reviews","animation":{"duration":0},"legend":"right","lineWidth":2,"hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"tooltip":{},"width":"100%","height":520},"state":{},"view":{},"chartType":"LineChart","chartName":"Chart 1"} </script>
+			</div>
+			<div class="chart">
+				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=D1%3AE1984&gid=0&pub=1","options":{"vAxes":[{"useFormatFromData":true,"title":null,"minValue":null,"logScale":false,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"logScale":false,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"booleanRole":"certainty","title":"Word usage by category (min. one appearance)","animation":{"duration":0},"legend":"right","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"isStacked":false,"tooltip":{},"width":"100%","height":520},"state":{},"view":{},"chartType":"ColumnChart","chartName":"Chart 2"} </script>
+			</div>
+			<div class="chart">
+				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=G1%3AH1984&gid=0&pub=1","options":{"vAxes":[{"useFormatFromData":true,"title":null,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"booleanRole":"certainty","title":"Average times that words were used per category (aggregate)","animation":{"duration":0},"legend":"right","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"isStacked":false,"width":"100%","height":520},"state":{},"view":{},"chartType":"ColumnChart","chartName":"Chart 3"} </script>
+			</div>
+			<div class="chart last">
+				<script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/umich.edu/spreadsheet/tq?key=0Ap_hNGFilX6FdGV4bHFTdHEwSURxVWJZbGN5R1VQNlE&transpose=0&headers=1&range=J1%3AK41&gid=0&pub=1","options":{"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"vAxes":[{"title":null,"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"title":"Total reviews per category","booleanRole":"certainty","height":520,"animation":{"duration":0},"legend":"right","width":"100%","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindowMode":null,"viewWindow":null,"maxValue":null},"tooltip":{},"isStacked":false},"state":{},"view":{},"chartType":"ColumnChart","chartName":"Chart 4"} </script>
+
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+	<script type="text/javascript" src="js/d3.v3.js"></script>
+</body>
+</html>
